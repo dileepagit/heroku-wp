@@ -1,1 +1,3 @@
-<?php include 'mathjax-latex/mathjax-latex.php';?>
+<?php
+
+require WPMU_PLUGIN_DIR.'mathjax-latex/mathjax-latex.php';
