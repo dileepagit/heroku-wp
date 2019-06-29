@@ -24,6 +24,7 @@
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-plugin/mathjax-latex": "~1",
 
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "^1.0"
@@ -62,7 +63,8 @@
             "vendor/WordPress/WordPress/wp-content/mu-plugins/{$name}/": [
                 "automattic/batcache",
                 "wpackagist-plugin/redis-cache",
-                "wpackagist-plugin/secure-db-connection"
+                "wpackagist-plugin/secure-db-connection",
+                "wpackagist-plugin/mathjax-latex"
             ],
             "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
             "vendor/WordPress/WordPress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
