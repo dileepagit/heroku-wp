@@ -42,6 +42,3 @@ else
 	rm composer-setup.php
 	exit 1
 fi
-
-
-php composer.phar update
