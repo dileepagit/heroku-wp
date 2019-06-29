@@ -1,3 +1,1 @@
-<?php
-
-require 'mathjax-latex/mathjax-latex.php';
+mathjax-latex/mathjax-latex.php
