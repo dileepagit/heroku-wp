@@ -1,1 +1,1 @@
-mathjax-latex/mathjax-latex.php
+<?php include 'mathjax-latex/mathjax-latex.php';?>
