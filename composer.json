@@ -63,8 +63,7 @@
             "vendor/WordPress/WordPress/wp-content/mu-plugins/{$name}/": [
                 "automattic/batcache",
                 "wpackagist-plugin/redis-cache",
-                "wpackagist-plugin/secure-db-connection",
-                "wpackagist-plugin/mathjax-latex"
+                "wpackagist-plugin/secure-db-connection"
             ],
             "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
             "vendor/WordPress/WordPress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
